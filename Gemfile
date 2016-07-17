@@ -10,13 +10,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 group :test, :development do
-  gem "rails-erd"
   gem "rspec-rails"
   gem "capybara"
   gem "launchy"
   gem "rack_session_access"
   gem "selenium-webdriver"
-  gem "better_errors"
+  #gem "better_errors"
   gem "binding_of_caller"
   gem "factory_girl_rails"
   gem "simplecov"
